@@ -5,6 +5,9 @@ import { App } from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App />, // Implementa acá el enrutador.
+  <Router>
+    <App />
+  </Router>,
+   // Implementa acá el enrutador.
   document.getElementById('root')
 );
